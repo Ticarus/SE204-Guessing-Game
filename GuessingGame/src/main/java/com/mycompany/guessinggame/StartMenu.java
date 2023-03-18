@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class StartMenu {
     private int choice;
-    private boolean isToMainMenuN,isToMainMenuA;
+    private boolean isToMainMenuN,isToMainMenuA;  //isToMainMenuNumber  isToMainMenuAlphabet
     
     Scanner sc = new Scanner(System.in);
     

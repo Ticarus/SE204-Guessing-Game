@@ -80,42 +80,47 @@ public class GuessTheAlphabet {
         this.hasWon = hasWon;
     }
     
+    public void instructionsTop(){
+        System.out.println("Guess the Alphabet");
+        System.out.println("----------------");
+        System.out.println("Instructions:");
+    }
+    
+    public void instructionsMiddle(){
+        System.out.println("2. You are allowed to make one guess at a time.");
+    }
+    
+    public void instructionsBottom(){
+        System.out.println("4. Once you have used up all your chances, you lose the game.");
+        System.out.println("\nGood Luck");
+    }
     public void instructions(){
         if(this.choice == 1){
             this.chances = 2;
             
-            System.out.println("Guess the Alphabet");
-            System.out.println("----------------");
-            System.out.println("Instructions:");
+            instructionsTop();
             System.out.println("1. Guess the vowel alphabet.");
-            System.out.println("2. You are allowed to make one guess at a time.");
+            instructionsMiddle();
             System.out.println("3. Each game has " + this.chances + " chances to guess the correct vowel.");
-            System.out.println("4. Once you have used up all your chances, you lose the game.");
-            System.out.println("\nGood Luck");
+            instructionsBottom();
         }
         else if(this.choice == 2){
             this.chances = 4;
             
-            System.out.println("Guess the Alphabet");
-            System.out.println("----------------");
-            System.out.println("Instructions:");
+            instructionsTop();
             System.out.println("1. Guess the consonant alphabet.");
-            System.out.println("2. You are allowed to make one guess at a time.");
+            instructionsMiddle();
             System.out.println("3. Each game has " + this.chances + " chances to guess the correct consonant.");
-            System.out.println("4. Once you have used up all your chances, you lose the game.");
-            System.out.println("\nGood Luck");
+            instructionsBottom();
         }
         else if(this.choice == 3){
             this.chances = 5;
             
-            System.out.println("Guess the Alphabet");
-            System.out.println("----------------");
-            System.out.println("Instructions:");
+            instructionsTop();
             System.out.println("1. Guess the alphabet.");
-            System.out.println("2. You are allowed to make one guess at a time.");
+            instructionsMiddle();
             System.out.println("3. Each game has " + this.chances + " chances to guess the correct alphabet.");
-            System.out.println("4. Once you have used up all your chances, you lose the game.");
-            System.out.println("\nGood Luck");
+            instructionsBottom();
         }
     }
     
