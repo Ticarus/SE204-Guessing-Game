@@ -1,6 +1,5 @@
 package com.mycompany.guessinggame;
 
-
 import java.lang.System;
 
 public class GuessingGame {
@@ -9,6 +8,7 @@ public class GuessingGame {
         Menu menu = new Menu();
         StartMenu startMenu = new StartMenu();
         HighScore highScore = new HighScore();
+        Credits credits = new Credits();
         
         do{      
             menu.menu();
@@ -26,7 +26,7 @@ public class GuessingGame {
                     if(guessTheNumber.getIsToMainMenu()){
                         startMenu.setIsToMainMenuN(true);
                     }
-                }while(!startMenu.getIsToMainMenuN());
+                }while(!startMenu.getIsToMainMenuN());  //getIsToMainMenuNumber
                 
                 startMenu.setIsToMainMenuN(false);
             }
@@ -43,7 +43,7 @@ public class GuessingGame {
                     if(guessTheAlphabet.getIsToMainMenu()){
                         startMenu.setIsToMainMenuA(true);
                     }
-                }while(!startMenu.getIsToMainMenuA());
+                }while(!startMenu.getIsToMainMenuA());  //getIsToMainMenuAlphabet
                 
                 startMenu.setIsToMainMenuA(false);
             }
@@ -51,10 +51,7 @@ public class GuessingGame {
                 highScore.printHighScore();
             }
             else if(menu.getChoice() == 4){
-                System.out.println("===============================\n||Student Name: Okan Toga    ||\n||Student ID:210209034       ||");
-                System.out.println("===============================\n||Student Name: Eren Geçer   ||\n||Student ID:210209051       ||");
-                System.out.println("===============================\n||Student Name: Yener Can Taş||\n||Student ID:200209034       ||");
-                System.out.println("===============================\n||Student Name: Gökay Yener  ||\n||Student ID:200209051       ||\n===============================");
+                credits.creditsStudent();
             }
             else if(menu.getChoice() == 5){
                 System.exit(0);
