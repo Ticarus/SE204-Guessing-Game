@@ -81,7 +81,7 @@ public class GuessTheNumber {
         System.out.println("Guess the Number");
         System.out.println("----------------");
         System.out.println("Instructions:");
-        System.out.println("1. Guess the number based on the gaven range.");
+        System.out.println("1. Guess the number based on the given range.");
         System.out.println("2. You are allowed to make one guess at a time.");
         System.out.println("3. Each game has " + this.chances + " chances to guess the correct number.");
         System.out.println("4. Once you have used up all your chances, you lose the game.");

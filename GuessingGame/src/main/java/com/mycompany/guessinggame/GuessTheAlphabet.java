@@ -8,7 +8,6 @@ public class GuessTheAlphabet {
     private int vowelCount = 5;
     private int consonantCount = 21;
     private int alphabetCount = 25;
-    //private char[] vowels = new char[this.vowelCount];
     private char vowels[] = {'a','e','i','o','u'};
     private char[] consonants = {'b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z'};
     private char[] alphabet = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
@@ -165,28 +164,7 @@ public class GuessTheAlphabet {
             instructions();
             
             rvg();
-            /*
-            this.number = rng.nextInt(0, 5);
             
-            if(this.number == 0){
-                this.letter = 'a';
-            }
-            else if(this.number == 1){
-                this.letter = 'e';
-            }
-            else if(this.number == 2){
-                this.letter = 'i';
-            }
-            else if(this.number == 3){
-                this.letter = 'o';
-            }
-            else if(this.number == 4){
-                this.letter = 'u';
-            }
-            else{
-                System.out.println("Error Code:121138");
-            }
-            */
             for(this.chances = 2 ; chances > 0 ; chances--){
                 System.out.println("Enter a vowel: " + this.chances + " left. What is the letter?");
                 //This system starts to fill the array from the element l[1] to the element l[0]
@@ -221,76 +199,7 @@ public class GuessTheAlphabet {
             instructions();
             
             rcg();
-            /*
-            this.number = rng.nextInt(0, 21);
             
-            if(this.number == 0){
-                this.letter = 'b';
-            }
-            else if(this.number == 1){
-                this.letter = 'c';
-            }
-            else if(this.number == 2){
-                this.letter = 'd';
-            }
-            else if(this.number == 3){
-                this.letter = 'f';
-            }
-            else if(this.number == 4){
-                this.letter = 'g';
-            }
-            else if(this.number == 5){
-                this.letter = 'h';
-            }
-            else if(this.number == 6){
-                this.letter = 'j';
-            }
-            else if(this.number == 7){
-                this.letter = 'k';
-            }
-            else if(this.number == 8){
-                this.letter = 'l';
-            }
-            else if(this.number == 9){
-                this.letter = 'm';
-            }
-            else if(this.number == 10){
-                this.letter = 'n';
-            }
-            else if(this.number == 11){
-                this.letter = 'p';
-            }
-            else if(this.number == 12){
-                this.letter = 'q';
-            }
-            else if(this.number == 13){
-                this.letter = 'r';
-            }
-            else if(this.number == 14){
-                this.letter = 's';
-            }
-            else if(this.number == 15){
-                this.letter = 't';
-            }
-            else if(this.number == 16){
-                this.letter = 'v';
-            }
-            else if(this.number == 17){
-                this.letter = 'w';
-            }
-            else if(this.number == 18){
-                this.letter = 'x';
-            }
-            else if(this.number == 19){
-                this.letter = 'y';
-            }
-            else if(this.number == 20){
-                this.letter = 'z';
-            }
-            else{
-                System.out.println("Error Code:187252");
-            }
-            */
             for(this.chances = 4 ; chances > 0 ; chances--){
                 System.out.println("Enter a consonant: " + this.chances + " left. What is the letter?");
                 //This system starts to fill the array from the element l[3] to the element l[0]
@@ -320,88 +229,7 @@ public class GuessTheAlphabet {
             instructions();
             
             rag();
-            /*
-            this.number = rng.nextInt(0, 25);
             
-            if(this.number == 0){
-                this.letter = 'a';
-            }
-            else if(this.number == 1){
-                this.letter = 'b';
-            }
-            else if(this.number == 2){
-                this.letter = 'c';
-            }
-            else if(this.number == 3){
-                this.letter = 'd';
-            }
-            else if(this.number == 4){
-                this.letter = 'e';
-            }
-            else if(this.number == 5){
-                this.letter = 'f';
-            }
-            else if(this.number == 6){
-                this.letter = 'g';
-            }
-            else if(this.number == 7){
-                this.letter = 'h';
-            }
-            else if(this.number == 8){
-                this.letter = 'i';
-            }
-            else if(this.number == 9){
-                this.letter = 'j';
-            }
-            else if(this.number == 10){
-                this.letter = 'k';
-            }
-            else if(this.number == 11){
-                this.letter = 'l';
-            }
-            else if(this.number == 12){
-                this.letter = 'm';
-            }
-            else if(this.number == 13){
-                this.letter = 'n';
-            }
-            else if(this.number == 14){
-                this.letter = 'o';
-            }
-            else if(this.number == 15){
-                this.letter = 'p';
-            }
-            else if(this.number == 16){
-                this.letter = 'r';
-            }
-            else if(this.number == 17){
-                this.letter = 's';
-            }
-            else if(this.number == 18){
-                this.letter = 't';
-            }
-            else if(this.number == 19){
-                this.letter = 'u';
-            }
-            else if(this.number == 20){
-                this.letter = 'v';
-            }
-            else if(this.number == 21){
-                this.letter = 'w';
-            }
-            else if(this.number == 22){
-                this.letter = 'x';
-            }
-            else if(this.number == 23){
-                this.letter = 'y';
-            }
-            else if(this.number == 24){
-                this.letter = 'z';
-            }
-            else{
-                System.out.println("Error Code:284361");
-            }
-            */
             for(this.chances = 5 ; chances > 0 ; chances--){
                 System.out.println("Enter an alphabet letter: " + this.chances + " left. What is the letter?");
                 //This system starts to fill the array from the element l[4] to the element l[0]
