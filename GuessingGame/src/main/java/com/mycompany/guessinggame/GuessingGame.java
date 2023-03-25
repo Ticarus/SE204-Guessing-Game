@@ -19,8 +19,8 @@ public class GuessingGame {
                     GuessTheNumber guessTheNumber = new GuessTheNumber(startMenu.getChoice());
                     guessTheNumber.guessTheNumber();
             
-                    if(guessTheNumber.getChances() >= highScore.getGTNHighScore()){
-                        highScore.setGTNHighScore(guessTheNumber.getChances());
+                    if(guessTheNumber.getScore() >= highScore.getGTNHighScore()){
+                        highScore.setGTNHighScore(guessTheNumber.getScore());
                     }
                     
                     if(guessTheNumber.getIsToMainMenu()){
@@ -36,8 +36,8 @@ public class GuessingGame {
                     GuessTheAlphabet guessTheAlphabet = new GuessTheAlphabet(startMenu.getChoice());
                     guessTheAlphabet.guessTheAlphabet();
             
-                    if(guessTheAlphabet.getChances() >= highScore.getGTAHighScore()){
-                        highScore.setGTAHighScore(guessTheAlphabet.getChances());
+                    if(guessTheAlphabet.getScore() >= highScore.getGTAHighScore()){
+                        highScore.setGTAHighScore(guessTheAlphabet.getScore());
                     }
                     
                     if(guessTheAlphabet.getIsToMainMenu()){

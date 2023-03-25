@@ -1,2 +1,7 @@
-com\mycompany\guessinggame\GuessingGame.class
+com\mycompany\guessinggame\Credits.class
+com\mycompany\guessinggame\GuessTheAlphabet.class
 com\mycompany\guessinggame\Menu.class
+com\mycompany\guessinggame\StartMenu.class
+com\mycompany\guessinggame\GuessingGame.class
+com\mycompany\guessinggame\GuessTheNumber.class
+com\mycompany\guessinggame\HighScore.class
